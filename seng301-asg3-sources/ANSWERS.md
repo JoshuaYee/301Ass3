@@ -4,7 +4,7 @@
 ## Task 1 - Identify the patterns
 
 ### Pattern 1 -  ??
-
+Abstract Factory Pattern
 - What pattern is it? 
 - What is its goal in the code?
 - Name of UML Class diagram attached:
@@ -15,7 +15,7 @@
 |                       |                       |
 
 ### Pattern 2 -  ??
-
+Command Pattern
 - What pattern is it? 
 - What is its goal in the code?
 - Name of UML Class diagram attached:
@@ -26,7 +26,7 @@
 |                       |                       |
 
 ### Pattern 3 - ??
-
+Composite Pattern
 - What pattern is it? 
 - What is its goal in the code?
 - Name of UML Class diagram attached:
