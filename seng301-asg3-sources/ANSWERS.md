@@ -3,7 +3,7 @@
 
 ## Task 1 - Identify the patterns
 
-### Pattern 1 -  ??
+### Pattern 1 -  Abstract Factory Pattern
 Abstract Factory Pattern
 
 - What pattern is it?  Abstract Factory Pattern
@@ -50,7 +50,7 @@ Composite Pattern
 
 ## Task 2 - Full UML Class diagram
 
-- Name of file of full UML Class diagram attached:
+- Name of file of full UML Class diagram attached: '301 Ass3 Full UML.pdf'
 - More explanation (if needed):
 
 ## Task 3 - Implement new features
