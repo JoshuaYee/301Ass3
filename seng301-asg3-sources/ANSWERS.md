@@ -6,14 +6,23 @@
 ### Pattern 1 -  ??
 Abstract Factory Pattern
 
-- What pattern is it? 
-- What is its goal in the code?
-- Name of UML Class diagram attached:
+- What pattern is it?  Abstract Factory Pattern
+- What is its goal in the code? As shown in my UML Class diagram, the Abstract Factory Pattern
+is used when preparing an order. preparingOrder.java uses the information provided by user to
+choose what factory and egg type to use and produce, without the need of a specific egg or factory classes needing to be specified
+
+- Name of UML Class diagram attached: '301 Ass3 Abstract Factory UML.pdf'
 - Mapping to GoF pattern elements:
 
 | GoF element           | Code element          |
 |-----------------------|-----------------------|
-|                       |                       |
+|           AbstractCreator            |             ChocolateEggFactory.java          |
+|           ConcreteCreator           |             StuffedEggFactory.java          |
+|           ConcreteCreator           |             HollowEggFactory.java          |
+|           AbstractProduct            |             ChocolateEgg.java          |
+|           ConcreteProduct           |             StuffedChocolateEgg.java          |
+|           ConcreteProduct           |             HollowChocolateEgg.java          |
+|           FactoryMethod           |             createChocolateEgg(ChocolateType, boolean)          |
 
 ### Pattern 2 -  ??
 Command Pattern
