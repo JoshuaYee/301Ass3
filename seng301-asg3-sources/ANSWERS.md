@@ -5,6 +5,7 @@
 
 ### Pattern 1 -  ??
 Abstract Factory Pattern
+
 - What pattern is it? 
 - What is its goal in the code?
 - Name of UML Class diagram attached:
@@ -16,6 +17,7 @@ Abstract Factory Pattern
 
 ### Pattern 2 -  ??
 Command Pattern
+
 - What pattern is it? 
 - What is its goal in the code?
 - Name of UML Class diagram attached:
@@ -27,8 +29,9 @@ Command Pattern
 
 ### Pattern 3 - ??
 Composite Pattern
-- What pattern is it? 
-- What is its goal in the code?
+
+- What pattern is it? Composite
+- What is its goal in the code? To create hierarchical, recurisve tree structures
 - Name of UML Class diagram attached:
 - Mapping to GoF pattern elements:
 

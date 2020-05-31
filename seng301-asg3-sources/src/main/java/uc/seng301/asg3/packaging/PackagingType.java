@@ -33,27 +33,27 @@ import java.util.Map;
  */
 public enum PackagingType {
   /**
-   * This packaging type is a box filled with eggs made of one type of chocolate only.
-   */
-  REGULAR_BOX(1),
-  /**
    * This packaging type is a box filled with eggs made of all available types of chocolate.
    */
   MIXED_BOX(2),
-  /**
-   * This packaging type is a larger hollow egg that will be filled with eggs made of one type of
-   * chocolate only.
-   *
-   * @see uc.seng301.asg3.egg.HollowChocolateEgg
-   */
-  REGULAR_HOLLOW_EGG(3),
   /**
    * This packaging type is a larger hollow egg that will be filled with eggs made of all available
    * types of chocolate.
    *
    * @see uc.seng301.asg3.egg.HollowChocolateEgg
    */
-  MIXED_HOLLOW_EGG(4);
+  MIXED_HOLLOW_EGG(4),
+  /**
+   * This packaging type is a box filled with eggs made of one type of chocolate only.
+   */
+  REGULAR_BOX(1),
+  /**
+   * This packaging type is a larger hollow egg that will be filled with eggs made of one type of
+   * chocolate only.
+   *
+   * @see uc.seng301.asg3.egg.HollowChocolateEgg
+   */
+  REGULAR_HOLLOW_EGG(3);
 
   private final int id;
   private static final Map<Integer, PackagingType> map = new LinkedHashMap<>();
@@ -101,7 +101,7 @@ public enum PackagingType {
    */
   public static boolean isHollowEggPackaging(PackagingType packagingType) {
     return packagingType.equals(PackagingType.REGULAR_HOLLOW_EGG)
-        || packagingType.equals(PackagingType.MIXED_HOLLOW_EGG);
+            || packagingType.equals(PackagingType.MIXED_HOLLOW_EGG);
   }
 
 
