@@ -1,3 +1,5 @@
 .gradle/
 *.lock
 *.xml
+*.bin
+**/.gradle
