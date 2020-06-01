@@ -24,29 +24,41 @@ choose what factory and egg type to use and produce, without the need of a speci
 |           ConcreteProduct           |             HollowChocolateEgg.java          |
 |           FactoryMethod           |             createChocolateEgg(ChocolateType, boolean)          |
 
-### Pattern 2 -  ??
+### Pattern 2 -  Command Pattern
 Command Pattern
 
-- What pattern is it? 
+- What pattern is it? Command pattern
 - What is its goal in the code?
-- Name of UML Class diagram attached:
+App.java creates a counter object, which recieves order information and passes the order through 
+to the Chocolatier.java. The Chocolatier then is able to create/execute the order using the methods
+from PreparingOrder.java
+- Name of UML Class diagram attached: '301 Ass3 Command UML.pdf'
 - Mapping to GoF pattern elements:
 
 | GoF element           | Code element          |
 |-----------------------|-----------------------|
-|                       |                       |
+|          ConcreteCommand             |           Counter.java            |
+|          Reciever             |           Chocolatier.java            |
+|          Invoker             |           App.java            |
 
-### Pattern 3 - ??
-Composite Pattern
+### Pattern 3 -  Facade
 
-- What pattern is it? Composite
-- What is its goal in the code? To create hierarchical, recurisve tree structures
-- Name of UML Class diagram attached:
+Facade
+- What pattern is it?  Facade
+- What is its goal in the code? In order to maximise abstraction, related classes are separated 
+away from the main App.java (which contains basic implementation) in packages. This allows
+for higher complexity to be shifted away from the App.java class, leaving it more readable.
+- Name of UML Class diagram attached: '301 Ass3 Facade UML.pdf'
 - Mapping to GoF pattern elements:
 
 | GoF element           | Code element          |
 |-----------------------|-----------------------|
-|                       |                       |
+|            Facade           |             App.java          |
+|            Package           |             packaging          |
+|            Package           |             order          |
+|            Package           |             packaging          |
+|            Package           |             ingredient          |
+|            Package           |             egg          |
 
 ## Task 2 - Full UML Class diagram
 
